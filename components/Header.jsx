@@ -14,7 +14,7 @@ import {CssBaseline,Typography,AppBar, Container, Grid, Button, Toolbar, Box, Hi
 
 const useStyles = makeStyles(theme => ({
     root: {
-        fontSize: 'Montserrat, sans-serif',
+        fontFamily: 'Montserrat, sans-serif',
     },
     ...helpers,
     hero: {
@@ -40,7 +40,7 @@ const useStyles = makeStyles(theme => ({
         alignItems: 'center',
         '& p': {
             marginLeft: '2rem',
-            fontSize: 'Montserrat, sans-serif',
+            fontFamily: 'Montserrat, sans-serif',
         },
     },   
     toolbar: {
@@ -59,9 +59,11 @@ const useStyles = makeStyles(theme => ({
     },
     intro: {
         color: '#fff',
-        fontWeight: 'bold',
         fontSize: '2.1rem',
         lineHeight: 1.2,
+        fontFamily: 'Montserrat',
+        fontStyle: 'normal',
+        fontWeight: 'bold',
         '& h2': {
             padding: '0',
             margin: '0',

@@ -3,12 +3,14 @@ import React from 'react'
 import Header from '../components/Header';
 import MissionSection from '../components/MissionSection';
 import ArmsSection from '../components/ArmsSection';
+import TestimonySection from '../components/TestimonySection';
 
 const Index = () => (
 	<React.Fragment>
 		<Header />
 		<MissionSection />
 		<ArmsSection />
+		<TestimonySection />
 	</React.Fragment>
 )
 

@@ -32,11 +32,12 @@ export default class MyApp extends App {
 		const theme = createMuiTheme({
 			palette: {
 				background: {
-					default: '#EEE',
+					default: '#FFF',
 				},
 				primary: {
 					main: '#673ab7',
 				},
+				darkBlend: '#222222',
 			},
 		})
 

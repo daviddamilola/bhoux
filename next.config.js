@@ -1,5 +1,6 @@
 const withOffline = require('next-offline')
 
+
 module.exports = withOffline({
 	target: process.env.NEXT_TARGET || 'serverless',
 	workboxOpts: {
